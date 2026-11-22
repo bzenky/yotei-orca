@@ -38,5 +38,6 @@ you change a VS Code theme, rebuild and validate from that repository:
 
 ```sh
 node tools/build-orca-theme.mjs
+node tools/render-orca-cover.mjs
 orca plugin validate orca
 ```
