@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 2,
+  "id": "yotei-theme",
+  "name": "Yotei",
+  "version": "1.3.0",
+  "execution": "data",
+  "description": "Dark theme inspired by a purple/red sky at dawn. Yotei, Yotei Midnight and Yotei Dawn, with matching syntax and terminal colors.",
+  "license": "MIT",
+  "repository": "https://github.com/bzenky/yotei",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "yotei",
+        "title": "Yotei",
+        "path": "themes/yotei.json"
+      },
+      {
+        "id": "yotei-midnight",
+        "title": "Yotei Midnight",
+        "path": "themes/yotei-midnight.json"
+      },
+      {
+        "id": "yotei-dawn",
+        "title": "Yotei Dawn",
+        "path": "themes/yotei-dawn.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "yotei",
+        "title": "Yotei",
+        "path": "terminal/yotei.json"
+      },
+      {
+        "id": "yotei-midnight",
+        "title": "Yotei Midnight",
+        "path": "terminal/yotei-midnight.json"
+      },
+      {
+        "id": "yotei-dawn",
+        "title": "Yotei Dawn",
+        "path": "terminal/yotei-dawn.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
